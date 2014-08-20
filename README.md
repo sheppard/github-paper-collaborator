@@ -54,7 +54,7 @@ Some disadvantages include:
 
 The core of the workflow is a git repository containing source files and a
 build script.  ([This repository] is an example).  Technically there are two
-build scripts: one that just compiles the PDF, and a second script that pulls
+build scripts: [one script] that compiles the PDF, and a [second script] that pulls
 the source from GitHub and then calls the first script.  This separation is
 important if you're ever working on a local copy and want to be able to build
 the paper without pulling from GitHub.  It also is likely that the second
@@ -124,7 +124,9 @@ All commits are the same from the perspective of the webhook!
 [ShareLatex]: https://www.sharelatex.com/
 [so I hear]: https://twitter.com/jeffbigham/status/500304217240637441
 [DigitalOcean]: http://www.digitalocean.com
-[This repository]: https://github.com/sheppard/github-paper-collaborator
+[This repository]: https://github.com/sheppard/github-paper-collaborator/tree/master/paper
+[one script]: https://github.com/sheppard/github-paper-collaborator/blob/master/paper/build.sh
+[second script]: https://github.com/sheppard/github-paper-collaborator/blob/master/paper/webhook.sh
 [Pandoc]: http://johnmacfarlane.net/pandoc/
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Bitbucket]: https://bitbucket.org
