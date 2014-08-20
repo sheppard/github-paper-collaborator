@@ -1,9 +1,12 @@
 # Github Paper Collaborator
 
-This project is a demonstration of my workflow for collaborating with other
-authors on an academic paper via GitHub and a custom webhook.  This workflow
-was used to facilitate a successful remote collaboration on the paper
-[Capturing Quality: Retaining Provenance for Curated Volunteer Monitoring Data][provenance]
+This project is a demonstration of a workflow for collaborating with other
+authors on an academic paper via GitHub and a custom webhook.  As part of the
+demonstration, changes to the source files in this repository are automatically
+reflected in [this PDF](http://ta.wq.io/files/example.pdf).
+
+This workflow was used to facilitate a successful remote collaboration on the paper
+[Capturing Quality: Retaining Provenance for Curated Volunteer Monitoring Data][provenance].
 
 ## TL; DR
 
